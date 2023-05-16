@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - LifeSigns Male Suicide Prevention Campaign</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">SIGN UP FOR LIFESIGNS MALE SUICIDE PREVENTION CAMPAIGN</h1>
+      <p class="header__description">Thank you for your interest in supporting our campaign. By signing up, you will help us raise awareness of male suicide and support those who are affected by it.
+
+      </p>
+      <p class="header__reasons">Here are three reasons why your support matters:</p>
+      <ol class="header__reasons-list">
+        <li>Male suicide is the leading cause of death among men under 45 in the UK.</li>
+        <li>Many men are hesitant to seek help for mental health struggles, increasing the risk of suicide.</li>
+        <li>By signing up, your support can break down the stigma surrounding mental health and encourage men to seek the help they need.</li>
+      </ol>
+    </header>
+
+    <form class="signup-form" method="post" action="#">
+      <label for="first-name" class="signup-form__label">First Name <span class="required">*</span></label>
+      <input type="text" id="first-name" name="first-name" required class="signup-form__input"><br>
+      <label for="last-name" class="signup-form__label">Last Name <span class="required">*</span></label>
+      <input type="text" id="last-name" name="last-name" required class="signup-form__input"><br><br>
+      <label class="signup-form__label">Sex <span class="required">*</span></label><br>
+
+      <input type="radio" id="male" name="sex" value="male" required class="signup-form__input">
+      <label for="male" class="signup-form__radio-label">Male</label><br>
+      <input type="radio" id="female" name="sex" value="female" required class="signup-form__input">
+      <label for="female" class="signup-form__radio-label">Female</label><br>
+      <input type="radio" id="prefer-not-to-say" name="sex" value="prefer-not-to-say" required class="signup-form__input">
+      <label for="prefer-not-to-say" class="signup-form__radio-label">Prefer not to say</label><br>
+
+      <label for="email" class="signup-form__label">Email <span class="required">*</span></label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required class="signup-form__input"><br>
+      <label for="contact-number" class="signup-form__label">Contact Number</label>
+      <input type="text" id="contact-number" name="contact-number" placeholder="+63 000-000-0000" class="signup-form__input"><br>
+      <input type="reset" value="Reset" class="signup-form__button">
+      <input type="submit" value="Submit" class="signup-form__button">
+    </form>
+
+    <script src="script.js"></script
